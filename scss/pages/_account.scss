@@ -1,0 +1,18 @@
+body {
+	&.accountpage {
+		.accountpage--right {
+			background: $lighterblue;
+		}
+		.accountpage--left--container {
+			padding: 30px 80px;
+		}
+		@include respond-below(sm) {
+			.accountpage--left--container {
+				padding: 20px 10px;
+			}
+			.accountpage--right {
+				display: none;
+			}
+		}
+	}
+}

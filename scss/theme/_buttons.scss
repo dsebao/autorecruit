@@ -1,0 +1,11 @@
+.btn {
+	&.btn-lg {
+		font-size: 14px;
+		padding: 14px 30px;
+	}
+	&.btn-primary {
+		font-weight: 700;
+		letter-spacing: 1px;
+		color: $white;
+	}
+}
