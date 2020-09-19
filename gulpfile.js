@@ -31,7 +31,7 @@ let onError = function (err) {
 gulp.task('assets', function (done) {
     // Copy all JS files
     gulp
-        .src(paths.node + '/jquery/dist/jquery.min.js')
+        .src(paths.node + '/jquery/dist/jquery.js')
         .pipe(gulp.dest(paths.js + '/core/jquery'));
 
     gulp

@@ -7744,6 +7744,12 @@ h1, .h1 {
 p {
   color: #636d88; }
 
+a {
+  color: #172e68;
+  font-weight: 700; }
+  a:hover {
+    color: #30d2ef; }
+
 .btn.btn-lg, .btn-group-lg > .btn {
   font-size: 14px;
   padding: 14px 30px; }
@@ -7769,6 +7775,10 @@ p {
 .form-control.form-control-lg {
   font-size: 14px;
   height: 50px; }
+
+.form-control:focus {
+  border: 1px solid #30d2ef;
+  box-shadow: 0 0 0 0.2rem rgba(48, 210, 239, 0.25); }
 
 body.accountpage .accountpage--right {
   background: #eef8ff; }

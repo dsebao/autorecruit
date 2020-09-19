@@ -6,12 +6,12 @@ Install dependencies
 
 `npm install`
 
-## For developing
+## Build all the project
 
-Copy assets
+This will copy assests, compile all css and the js files
 
-`gulp assets`
+`gulp start`
 
-Watch changes
+Watch changes for development
 
 `gulp watch`

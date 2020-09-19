@@ -18,4 +18,8 @@
 		font-size: 14px;
 		height: 50px;
 	}
+	&:focus {
+		border: 1px solid $primary;
+		box-shadow: 0 0 0 0.2rem rgba(48, 210, 239, 0.25);
+	}
 }
