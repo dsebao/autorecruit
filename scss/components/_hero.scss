@@ -1,0 +1,17 @@
+.hero-01 {
+	background-image: url("./assets/images/landing-persona.svg");
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position-x: right;
+	background-position-y: -20px;
+	background-color: $gray;
+	border-bottom-left-radius: 50% 45px;
+	border-bottom-right-radius: 50% 45px;
+
+	@include respond-below(sm) {
+		background-image: none;
+		& {
+			border-radius: 0;
+		}
+	}
+}

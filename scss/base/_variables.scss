@@ -43,6 +43,7 @@ $lighterblue: #eef8ff;
 $orange: #fd7e14;
 $yellow: #f8c204;
 $textcolor: #636d88;
+$gray: #f3f8fc;
 
 $colors: ();
 $colors: map-merge(
@@ -97,3 +98,5 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+$border-radius: 30px;

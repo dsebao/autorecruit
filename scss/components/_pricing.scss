@@ -1,0 +1,42 @@
+.pricing-component {
+	.pricing-item {
+		background: $gray-100;
+		border-radius: $border-radius;
+		@include transition(all 0.3s ease);
+		h3 {
+			font-size: 32px;
+			color: $blue;
+			font-weight: 400;
+		}
+		.pricing-item-cost {
+			font-size: 45px;
+			font-weight: 700;
+			color: $blue;
+			span.lead {
+				font-size: 25px;
+				color: $blue;
+			}
+		}
+		&:hover {
+			transform: translate(0, -5px);
+			box-shadow: 0 20px 30px rgba($blue, 0.2);
+		}
+	}
+	.pricing-item-featured {
+		background: $blue;
+		color: $white;
+		p,
+		span {
+			color: $white;
+		}
+		.pricing-item-cost {
+			color: $white;
+			span.lead {
+				color: $white;
+			}
+		}
+		h3 {
+			color: $white;
+		}
+	}
+}

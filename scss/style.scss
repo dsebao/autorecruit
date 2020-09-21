@@ -14,6 +14,9 @@ Text Domain: autorecruit
 @import "./base/base";
 @import "./utils/utils";
 @import "./bs4/bootstrap";
+
+@import "./plugins/aos/aos";
+
 @import "./components/components";
 @import "./theme/theme";
 @import "./pages/pages";

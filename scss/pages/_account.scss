@@ -1,6 +1,7 @@
 body {
 	&.accountpage {
 		.accountpage--right {
+			height: 100vh;
 			background: $lighterblue;
 		}
 		.accountpage--left--container {
