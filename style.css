@@ -9515,6 +9515,67 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
   .pricing-component .pricing-item-featured h3 {
     color: #fff; }
 
+.cardIcon {
+  border-radius: 30px;
+  transition: all 0.3s ease; }
+  @media (prefers-reduced-motion: reduce) {
+    .cardIcon {
+      transition: none; } }
+  .cardIcon .cardIcon--content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row; }
+    .cardIcon .cardIcon--content .icon-wrap {
+      -ms-flex: 0 0 92px;
+          flex: 0 0 92px; }
+      .cardIcon .cardIcon--content .icon-wrap .icon {
+        background: #a1ecfc;
+        width: 65px;
+        height: 65px;
+        display: block;
+        border-radius: 40px;
+        box-shadow: 0 0 0 10px rgba(161, 236, 252, 0.3);
+        text-align: center;
+        line-height: 62px;
+        transition: all 0.3s ease; }
+        @media (prefers-reduced-motion: reduce) {
+          .cardIcon .cardIcon--content .icon-wrap .icon {
+            transition: none; } }
+        .cardIcon .cardIcon--content .icon-wrap .icon svg {
+          fill: #172e68;
+          width: 34px;
+          height: 34px; }
+    .cardIcon .cardIcon--content .cardIcon--text h3 {
+      font-size: 23px;
+      color: #f8c204; }
+    @media (max-width: 767px) {
+      .cardIcon .cardIcon--content {
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+  .cardIcon:hover {
+    background: #f3f8fc; }
+    .cardIcon:hover .icon {
+      box-shadow: 0 0 0 0px rgba(161, 236, 252, 0.2) !important; }
+
+.fdb-block.sectionImageMask {
+  overflow: initial;
+  padding: 5.5rem 0 0; }
+  .fdb-block.sectionImageMask .image-mask-position {
+    position: absolute;
+    z-index: 2; }
+    .fdb-block.sectionImageMask .image-mask-position .image-mask {
+      overflow: hidden;
+      border-radius: 30px 30px 0 30px; }
+      .fdb-block.sectionImageMask .image-mask-position .image-mask img {
+        height: auto;
+        width: 100%; }
+  @media (max-width: 767px) {
+    .fdb-block.sectionImageMask {
+      padding: 3.5rem 0; }
+      .fdb-block.sectionImageMask .image-mask-position {
+        position: relative; } }
+
 h1,
 h2,
 h3,
@@ -9528,8 +9589,13 @@ h1,
   font-size: 45px;
   color: #172e68; }
 
+h2,
+.h2 {
+  color: #172e68; }
+
 p {
-  color: #636d88; }
+  color: #636d88;
+  line-height: 30px; }
 
 .lead {
   color: #636d88;
@@ -9552,6 +9618,8 @@ a {
   .btn.btn-primary {
     color: #fff;
     box-shadow: 0px 6px 8px rgba(17, 188, 219, 0.2); }
+  .btn.btn-warning {
+    color: #fff; }
 
 .form-group {
   margin-bottom: 15px; }

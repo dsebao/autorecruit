@@ -12,9 +12,9 @@ Install dependencies
 
 ## Build all the project
 
-This will copy assests, compile all css and the js files
+Compile all files (CSS & JS)
 
-`gulp start`
+`gulp compile`
 
 Watch changes for development
 

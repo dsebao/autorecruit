@@ -1,0 +1,44 @@
+.cardIcon {
+	border-radius: $border-radius;
+	@include transition(all 0.3s ease);
+	.cardIcon--content {
+		display: flex;
+		flex-direction: row;
+		.icon-wrap {
+			flex: 0 0 92px;
+			.icon {
+				background: $lightbluemd;
+				width: 65px;
+				height: 65px;
+				display: block;
+				border-radius: 40px;
+				box-shadow: 0 0 0 10px rgba($lightbluemd, 0.3);
+				text-align: center;
+				line-height: 62px;
+				@include transition(all 0.3s ease);
+				svg {
+					fill: $blue;
+					width: 34px;
+					height: 34px;
+				}
+			}
+		}
+		.cardIcon--text {
+			h3 {
+				font-size: 23px;
+				color: $yellow;
+			}
+		}
+		@include respond-below(sm) {
+			& {
+				flex-direction: column;
+			}
+		}
+	}
+	&:hover {
+		background: $gray;
+		.icon {
+			box-shadow: 0 0 0 0px rgba($lightbluemd, 0.2) !important;
+		}
+	}
+}

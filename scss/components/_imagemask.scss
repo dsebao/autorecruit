@@ -1,0 +1,24 @@
+.fdb-block.sectionImageMask {
+	overflow: initial;
+	padding: 5.5rem 0 0;
+	.image-mask-position {
+		position: absolute;
+		z-index: 2;
+		.image-mask {
+			overflow: hidden;
+			border-radius: 30px 30px 0 30px;
+			img {
+				height: auto;
+				width: 100%;
+			}
+		}
+	}
+	@include respond-below(sm) {
+		& {
+			padding: 3.5rem 0;
+			.image-mask-position {
+				position: relative;
+			}
+		}
+	}
+}
