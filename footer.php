@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="assets/images/logo-2.svg" alt="" class="d-block mb-4">
+                <img src="<?php echo IMG; ?>/logo-2.svg" alt="" class="d-block mb-4">
                 <p>
                     We’ll instantly send you screened candidates and start sourcing candidates immediately and screening using our bias free tests
                 </p>

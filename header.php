@@ -13,7 +13,7 @@
             <nav id="mainNavbar" class="navbar navbar-expand-md">
                 <div class="col">
                     <a class="navbar-brand" href="">
-                        <img src="assets/images/logo-2.svg" width="170" alt="image" />
+                        <img src="<?php echo IMG; ?>/logo-2.svg" width="170" alt="image" />
                     </a>
                 </div>
 

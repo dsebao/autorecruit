@@ -33,7 +33,7 @@
 
 		<div class="row text-center mt-5">
 			<div class="col-12 col-sm-4">
-				<img alt="image" src="assets/images/icon-01.svg" />
+				<img alt="image" src="<?php echo IMG; ?>/icon-01.svg" />
 				<h2 class="text-primary"><strong>+300</strong></h2>
 				<p class='lead'>
 					skill tests
@@ -41,7 +41,7 @@
 			</div>
 
 			<div class="col-12 col-sm-4 pt-4 pt-sm-0">
-				<img alt="image" src="assets/images/icon-02.svg" />
+				<img alt="image" src="<?php echo IMG; ?>/icon-02.svg" />
 				<h2 class="text-primary"><strong>+300</strong></h2>
 				<p class='lead'>
 					candidates screened
@@ -49,7 +49,7 @@
 			</div>
 
 			<div class="col-12 col-sm-4 pt-4 pt-sm-0">
-				<img alt="image" src="assets/images/icon-03.svg" />
+				<img alt="image" src="<?php echo IMG; ?>/icon-03.svg" />
 				<h2 class="text-primary"><strong>+2000</strong></h2>
 				<p class='lead'>
 					happy clients
@@ -153,7 +153,7 @@
 			<div class="col-md-6">
 				<div class="image-mask-position">
 					<div class="image-mask" data-aos="fade-in">
-						<img src="assets/images/work.jpg" alt="Autorecruit">
+						<img src="<?php echo IMG; ?>/work.jpg" alt="Autorecruit">
 					</div>
 				</div>
 			</div>
