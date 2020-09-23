@@ -9576,6 +9576,36 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
       .fdb-block.sectionImageMask .image-mask-position {
         position: relative; } }
 
+footer {
+  background-color: #f3f8fc;
+  font-size: 13px; }
+  footer h6 {
+    color: #b1bbd0;
+    letter-spacing: 1px;
+    font-size: 12px; }
+  footer ul {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    footer ul li {
+      -ms-flex: 1;
+          flex: 1;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      footer ul li a {
+        padding: 5px 0;
+        font-size: 16px;
+        font-weight: 400;
+        color: #172e68; }
+
 h1,
 h2,
 h3,
