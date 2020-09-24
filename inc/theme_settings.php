@@ -31,7 +31,8 @@ if (!function_exists('vasi_setup')) {
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'primary' => __('Menu Primario', 'zeus'),
+				'primary' => __('Main menu', 'autorecruit'),
+				'footer' => __('Footer menu', 'autorecruit'),
 			)
 		);
 

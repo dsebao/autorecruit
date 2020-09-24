@@ -10,13 +10,12 @@
             </div>
             <div class="col-md-4 pt-2">
                 <h6 class='mb-4'>NAVIGATION</h6>
-                <ul>
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
-                </ul>
+                <?php wp_nav_menu(array(
+                    'menu' => 'footer-menu',
+                    'theme_location' => 'footer',
+                    'menu_class' => '',
+                    'container' => 'ul',
+                )); ?>
             </div>
             <div class="col-md-4 pt-2">
                 <h6 class='mb-4'>GET IN TOUCH</h6>
