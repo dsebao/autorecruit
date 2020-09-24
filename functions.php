@@ -6,6 +6,7 @@ defined('ABSPATH') || exit;
 
 $theme_includes = array(
 	'/globals.php',
+	'/wp.php',
 	'/pagination.php',
 	'/enqueue.php',
 	'/utils.php',
