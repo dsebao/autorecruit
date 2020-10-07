@@ -4,9 +4,9 @@
             <div class="col-md-4">
                 <img src="<?php echo IMG; ?>/logo-2.svg" alt="" class="d-block mb-4">
                 <p>
-                    We’ll instantly send you screened candidates and start sourcing candidates immediately and screening using our bias free tests
+                    Recognize Talent. Celebrate Diversity
                 </p>
-                <p>&copy; 2020 Copyrights</p>
+                <p>&copy; <?php echo date('Y'); ?> Copyrights</p>
             </div>
             <div class="col-md-4 pt-2">
                 <h6 class='mb-4'>NAVIGATION</h6>
@@ -20,9 +20,8 @@
             <div class="col-md-4 pt-2">
                 <h6 class='mb-4'>GET IN TOUCH</h6>
                 <p>
-                    4293 Euclid Avenue, Los Angeles,<br>
-                    CA 90012<br>
-                    info@autorecruit.ai
+                    <a href="https://journey.hr/" target="_blank">https://journey.hr/</a>
+                    <a href="mailto: rajiv@journey.hr">rajiv@journey.hr</a>
                 </p>
             </div>
         </div>

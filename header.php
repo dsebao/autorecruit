@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body class="home">
+<body <?php body_class(); ?>>
     <header class="mainHeader">
         <div class="container">
             <nav id="mainNavbar" class="navbar navbar-expand-md">
