@@ -51,6 +51,15 @@ gulp.task('assets', function (done) {
         .src(paths.node + '/bootstrap/scss/**/*.scss')
         .pipe(gulp.dest(paths.scss + '/bs4/'));
 
+    // Copy noty files
+    gulp
+        .src(paths.node + '/noty/lib/noty.js')
+        .pipe(gulp.dest(paths.js + '/libs/'))
+    gulp
+        .src(paths.node + '/noty/src/**/*.scss')
+        .pipe(gulp.dest(paths.scss + '/plugins/noty/'));
+
+
     done();
 });
 

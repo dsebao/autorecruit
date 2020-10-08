@@ -8,6 +8,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
     <header class="mainHeader">
         <div class="container">
             <nav id="mainNavbar" class="navbar navbar-expand-md">

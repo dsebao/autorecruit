@@ -1,0 +1,37 @@
+.globalcover {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	.globalcover-pad {
+		background: rgba(255, 255, 255, 0.4);
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 10;
+	}
+
+	text-align: center;
+	z-index: 2000;
+
+	#loader {
+		z-index: 12;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -25px 0 0 -25px;
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}

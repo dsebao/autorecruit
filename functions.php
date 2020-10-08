@@ -7,13 +7,15 @@ defined('ABSPATH') || exit;
 
 $theme_includes = array(
 	'/globals.php',
+	'/utils.php',
+	'/api.php',
 	'/wp.php',
 	'/pagination.php',
 	'/enqueue.php',
-	'/utils.php',
 	'/shortcode.php',
 	'/metaboxes.php',
-	'/theme_settings.php', // Initialize theme default settings.
+	'/theme_settings.php',
+	'/ajax.php',
 	'/wp_bootstrap_nav.php',
 );
 

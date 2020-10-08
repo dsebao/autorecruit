@@ -17,12 +17,17 @@
 				color: $blue;
 			}
 		}
+		.items {
+			p {
+				font-style: italic;
+			}
+		}
 		&:hover {
 			transform: translate(0, -5px);
 			box-shadow: 0 20px 30px rgba($blue, 0.2);
 		}
 	}
-	.pricing-item-featured {
+	.pricing-item-Standard {
 		background: $blue;
 		color: $white;
 		p,

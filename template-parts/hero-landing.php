@@ -7,14 +7,18 @@
                     <?php echo get_sub_field('subtitle'); ?>
                 </p>
                 <p class="mt-4">
-                    <form action="" data-aos="fade-in" data-aos-delay="300">
+                    <form class="js-verify-email" action="" data-aos="fade-in" data-aos-delay="300" novalidate>
                         <div class="form-group">
-                            <input type="text" class="form-control form-control-lg" placeholder="<?php echo get_sub_field('placeholder_skill'); ?>">
+                            <input type="text" name="skills" class="form-control form-control-lg" placeholder="<?php echo get_sub_field('placeholder_skill'); ?>" required>
+                            <div class="invalid-feedback">Please check this input</div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control form-control-lg" placeholder="Your email">
+                            <input name="email" type="email" class="form-control form-control-lg" placeholder="Your email" required>
+                            <div class="invalid-feedback">Please enter your email</div>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg" href="">GET CANDIDATES</button>
+                        <input type="hidden" name="action" value="sendform">
+                        <input type="hidden" name="typeform" value="verify_email">
+                        <button type="submit" class="btn btn-primary btn-lg">GET CANDIDATES</button>
                     </form>
                 </p>
             </div>

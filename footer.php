@@ -20,7 +20,7 @@
             <div class="col-md-4 pt-2">
                 <h6 class='mb-4'>GET IN TOUCH</h6>
                 <p>
-                    <a href="https://journey.hr/" target="_blank">https://journey.hr/</a>
+                    <a href="https://journey.hr/" target="_blank">https://journey.hr/</a><br>
                     <a href="mailto: rajiv@journey.hr">rajiv@journey.hr</a>
                 </p>
             </div>

@@ -16,4 +16,37 @@
             }, false);
         });
     }, false);
+
+
+    $('form.js-verify-email').on('submit', function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        if ($(this)[0].checkValidity() !== false) {
+            $.ajax({
+                type: "POST",
+                url: "https://app.autorecruit.ai/acct/verify/send",
+                data: $(this).serialize(),
+                beforeSend: function (data) {
+                    console.log(data);
+
+                },
+                success: function (data) {
+                    console.log(data);
+                    new Noty({
+                        type: 'success',
+                        text: 'An email was sent to your inbox!',
+                    }).show();
+                },
+                error: function (data) {
+                    new Noty({
+                        type: 'error',
+                        text: 'An error ocurred',
+                    }).show();
+                }
+            })
+        }
+        $(this).addClass('was-validated');
+    });
+
+
 })();

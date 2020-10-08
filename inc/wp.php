@@ -1,5 +1,7 @@
 <?php
 
+// Exit if accessed directly.
+defined('ABSPATH') || exit;
 
 /**
  * Hide WordPress update nag to all but admins

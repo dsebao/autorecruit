@@ -1,5 +1,8 @@
 <?php
 
+// Exit if accessed directly.
+defined('ABSPATH') || exit;
+
 // Useful Shortcodes
 add_shortcode('home_url', 'return_home_url');
 
