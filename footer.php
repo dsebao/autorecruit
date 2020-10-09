@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="<?php echo IMG; ?>/logo-2.svg" alt="" class="d-block mb-4">
+                <img src="<?php echo IMG; ?>/logo.svg" alt="" class="d-block mb-4">
                 <p>
                     Recognize Talent. Celebrate Diversity
                 </p>
-                <p>&copy; <?php echo date('Y'); ?> Copyrights</p>
+                <p>&copy; <?php echo date('Y'); ?> Atlas, Inc.</p>
             </div>
             <div class="col-md-4 pt-2">
                 <h6 class='mb-4'>NAVIGATION</h6>
@@ -20,8 +20,7 @@
             <div class="col-md-4 pt-2">
                 <h6 class='mb-4'>GET IN TOUCH</h6>
                 <p>
-                    <a href="https://journey.hr/" target="_blank">https://journey.hr/</a><br>
-                    <a href="mailto: rajiv@journey.hr">rajiv@journey.hr</a>
+                    <a href="mailto: info@autorecruit.ai">info@autorecruit.ai</a>
                 </p>
             </div>
         </div>

@@ -18,8 +18,8 @@
                             </i>
                         </div>
                         <div class="cardIcon--text">
-                            <h3>1. AI Powered source</h3>
-                            <p>We find available candidates from a variety of leading job platforms using a streamlined bot interaction that collects.</p>
+                            <h3>1. AI Powered Sourcing</h3>
+                            <p>We find available candidates from around the world using our patented streamlined bot interaction</p>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                         </div>
                         <div class="cardIcon--text">
                             <h3>3. Fraud Detection</h3>
-                            <p>We’ve created unique fraud detection technology that guarantees the accuracy of our test results. Leveraging a seamless chatbox experience, we efficiently collect candidate information, test their skill sets, and remove bias typically found in sourcing.</p>
+                            <p>Our patented fraud detection technology guarantees accuracy of our test results. We efficiently collect candidate information, test their skill sets, and remove bias typically found in sourcing.</p>
                         </div>
                     </div>
                 </div>

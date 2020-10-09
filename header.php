@@ -14,7 +14,7 @@
             <nav id="mainNavbar" class="navbar navbar-expand-md">
                 <div class="col">
                     <a class="navbar-brand" href="">
-                        <img src="<?php echo IMG; ?>/logo-2.svg" width="170" alt="image" />
+                        <img src="<?php echo IMG; ?>/logo.svg" width="170" alt="image" />
                     </a>
                 </div>
 
@@ -22,7 +22,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="mainNav">
+                <div class="collapse navbar-collapse justify-content-end" id="mainNav">
                     <?php wp_nav_menu(array(
                         'menu' => 'main-menu',
                         'theme_location' => 'primary',
@@ -30,7 +30,7 @@
                         'container' => 'ul',
                         'walker' => new AR_WP_nav()
                     )); ?>
-                    <a class="btn btn-primary ml-md-3" href="">LOGIN</a>
+                    <a class="btn btn-primary ml-md-3" href="https://app.autorecruit.ai/recruiter/setup">SIGNUP</a>
                 </div>
             </nav>
         </div>

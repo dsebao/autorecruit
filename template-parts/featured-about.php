@@ -5,7 +5,7 @@
                 <h2 class="mb-4" data-aos="fade-right">Leveraging AI to remove bias from the modern workplace</h2>
                 <p>We enable your business to grow at the scale you need. Our sourcing platform targets a diverse pipeline based on objective, validated skills tests. We combine cultural fit and test performance to get you undeniable talent.</p>
                 <p>
-                    <a href="" class="btn btn-warning btn-lg">CREATE AN ACCOUNT</a>
+                    <a href="https://app.autorecruit.ai/recruiter/setup" class="btn btn-warning btn-lg">SIGNUP NOW</a>
                 </p>
             </div>
             <div class="col-md-6">
