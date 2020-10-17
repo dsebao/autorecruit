@@ -34,7 +34,7 @@
                     console.log(data);
                     new Noty({
                         type: 'success',
-                        text: 'An email was sent to your inbox!',
+                        text: 'Your request has been submitted - check your inbox soon for your 10 free candidates!',
                     }).show();
                 },
                 error: function (data) {

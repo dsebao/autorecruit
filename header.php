@@ -30,7 +30,7 @@
                         'container' => 'ul',
                         'walker' => new AR_WP_nav()
                     )); ?>
-                    <a class="btn btn-primary ml-md-3" href="https://app.autorecruit.ai/recruiter/setup">SIGNUP</a>
+                    <a class="btn btn-primary ml-md-3" href="https://app.autorecruit.ai/recruiter/signup">SIGNUP</a>
                 </div>
             </nav>
         </div>
