@@ -7,16 +7,11 @@ footer {
 		font-size: 12px;
 	}
 	ul {
-		display: flex;
 		padding-left: 0;
 		list-style: none;
 		width: 100%;
-		align-items: center;
-		flex-wrap: wrap;
 		li {
-			flex: 1;
-			display: flex;
-			flex-basis: 50%;
+			display: block;
 			a {
 				padding: 5px 0;
 				font-size: 16px;

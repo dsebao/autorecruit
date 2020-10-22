@@ -9,7 +9,7 @@
                 <p>&copy; <?php echo date('Y'); ?> Atlas, Inc.</p>
             </div>
             <div class="col-md-4 pt-2">
-                <!-- <h6 class='mb-4'>NAVIGATION</h6> -->
+                <h6 class='mb-4'>NAVIGATION</h6>
                 <?php wp_nav_menu(array(
                     'menu' => 'footer-menu',
                     'theme_location' => 'footer',

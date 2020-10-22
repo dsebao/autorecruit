@@ -14,7 +14,7 @@ if (!function_exists('theme_scripts')) {
 	function theme_scripts()
 	{
 		// Get the theme data.
-		wp_enqueue_style('styles', get_template_directory_uri() . '/style.css?10');
+		wp_enqueue_style('styles', get_template_directory_uri() . '/style.css');
 		wp_enqueue_script('core-js', get_template_directory_uri() . '/js/core.min.js', array(), null, true);
 		wp_enqueue_script('app-js', get_template_directory_uri() . '/js/app.min.js', array('core-js'), null, true);
 
